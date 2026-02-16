@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-backup`](https://www.npmjs.com/package/@aws-sdk/client-backup/v/3.28.0).
+[`@aws-sdk/client-backup`](https://www.npmjs.com/package/@aws-sdk/client-backup/v/3.29.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.28.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.29.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-IxRPNp6zpDnIe2p8lo1qYvGQsSnBFtcoqyOEfuCkCKT5j0KjPpjtTTHU5Y49xa3J
+sha384-5hFqei5DVfvAID7kdpDTSFNe9Og87tA9q06OP7wSq8GBpOn9ftB04W5ArIXUC7y5
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-backup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.28.0/index.min.mjs"
+            "@aws-sdk/client-backup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.29.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.28.0/index.min.mjs": "sha384-IxRPNp6zpDnIe2p8lo1qYvGQsSnBFtcoqyOEfuCkCKT5j0KjPpjtTTHU5Y49xa3J"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.29.0/index.min.mjs": "sha384-5hFqei5DVfvAID7kdpDTSFNe9Og87tA9q06OP7wSq8GBpOn9ftB04W5ArIXUC7y5"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-backup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.28.0/index.min.mjs"
+                        "@aws-sdk/client-backup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.29.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.28.0/index.min.mjs": "sha384-IxRPNp6zpDnIe2p8lo1qYvGQsSnBFtcoqyOEfuCkCKT5j0KjPpjtTTHU5Y49xa3J"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-backup@3.29.0/index.min.mjs": "sha384-5hFqei5DVfvAID7kdpDTSFNe9Og87tA9q06OP7wSq8GBpOn9ftB04W5ArIXUC7y5"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.28.0`)
+* Always pin to a specific version (`@3.29.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-backup/blob/refs/tags/3.28.0/LICENSE
+https://github.com/cloud-sdk-builds/client-backup/blob/refs/tags/3.29.0/LICENSE
 ```
 
 ---
